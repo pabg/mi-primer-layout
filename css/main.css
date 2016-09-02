@@ -1,87 +1,202 @@
-*{
+* {
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;  
+	margin: 0 auto;
+	padding: 0;
 }
+
 .container{
-	width: 100%;
-	max-width: 1024px;
-	margin:0px auto;
-}
-
-.text-center {
-	text-align: center;
-}
-
-.text-right {
-	text-align: right;
+	width: 60%;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 .row:before, .row:after{
-  content: " ";
-  display: table;
+	content: "";
+	display: table;
 }
-.row:after {
-  clear: both;
+.row:after{
+	clear: both;
 }
-[class*-"col-"] {
+[class*="col-"]{
 	min-height: 7px;
 	padding: 12px;
 	float: left;
 }
 .col-1{
-	width:8.333333%; 
+	width: 8.333333%;
 }
+
 .col-2{
-	width:16.666667%; 
+	width: 16.666667%;
 }
 .col-3{
-	width:25%;
+	width: 25%;
 }
 .col-4{
 	width: 33.333333%;
 }
 .col-5{
-	width: 41.6666667%;
+	width: 41.666667%;
 }
 .col-6{
 	width: 50%;
 }
 .col-7{
-	width: 58.333333%; 
+	width: 58.333333%;
 }
 .col-8{
 	width: 66.666666%;
 }
+
 .col-9{
 	width: 75%;
 }
+
 .col-10{
 	width: 83.333333%;
 }
+
 .col-11{
 	width: 91.666666%;
 }
+
 .col-12{
 	width: 100%;
 }
-hr{
-	width:25%;
-}
-p .col-12{
-	text-align: center;
-}
-
-
-
-
-/*INDEX2*/
-.foto, h2, p{
-	text-align: center;
-}
-.box{
+header nav ul li a{
 	display: inline-block;
+	padding: 0px 20px;
+	text-align: center;
+	text-decoration: none;	
+	font-size: 16px;
+	color: black;
+}
+
+header nav ul li{
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+
+}
+
+hr{
+	border-top: 1px solid black;
+}
+
+.logo{
+	width: 100%;
+}
+
+.vertical{
+	border-right: 1px solid black;
+}
+
+.grupal{
+	width: 100%;
+}
+
+.lineatexto{
+    border-style: solid;
+    border-width: 1px;
+    width: 10%;
+    margin: auto;
+}
+
+.texto{
+	text-align: center;
+	margin-left: 20%;
+	
+}	
+.nuestrascoders{
+    border-style: solid;
+    border-width: 1px;
+    width: 40%;
+    margin-left: 0;
+
+}
+.fotosindex{
+	width: 100%;
+	padding-top: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.fotos{
+	position: relative;
+
+}
+.coders{
+	width: 100%;
+}
+.linkcoder{
+	position: absolute;
+	color: white;
+	bottom: 20px;
+	right: 20px;
+	text-decoration: none;
+}
+
+.caja{
+	margin:10px auto;
+	padding: 10px;
+	border:1px solid black;
+	text-align: center;
 }
 
 
+.fotocircular{
+	width: 150px; 
+	height: 150px; 
+	border-radius: 100px; 
+	-webkit-border-radius: 100px; 
+	-moz-border-radius: 100px; 
+	background: url(../img/profile-1.png) no-repeat;
+	margin: auto;
+	background-size: cover;
+}
 
+.textosimulado{
+	text-align: center;
+	margin: 5%;
+}
+
+.barrauno{
+	background-color: #909090;
+	color: white;
+	width: 100%;
+	padding: 10px;
+	margin-left: 30px;
+	text-align: left;
+}
+
+.barrados{
+	background-color: #909090;
+	color: white;
+	width: 100%;
+	padding: 10px;
+	margin-left: 30px;
+	text-align: left;
+}
+
+.barratres{
+	background-color: #909090;
+	color: white;
+	width: 100%;
+	padding: 10px;
+	margin-left: 30px;
+	text-align: left;
+}
+
+h2{
+	float:left;
+}
+.fotosdetail{
+	width: 100%;
+	padding-top: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.portafolio{
+	width: 100%;
+}
